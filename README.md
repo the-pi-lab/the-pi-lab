@@ -15,11 +15,11 @@
 
 <br/><br/>
 
-<a href="#"><img src="https://img.shields.io/badge/🌐%20Website-THE%20%CE%A0%20LAB-7C3AED?style=flat-square" /></a>
+<a href="https://www.thepilab.in"><img src="https://img.shields.io/badge/🌐%20Website-THE%20%CE%A0%20LAB-7C3AED?style=flat-square" /></a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/💼%20LinkedIn-THE%20%CE%A0%20LAB-0A66C2?style=flat-square" /></a>
+<a href="https://www.linkedin.com/company/the-%CF%80-lab/"><img src="https://img.shields.io/badge/💼%20LinkedIn-THE%20%CE%A0%20LAB-0A66C2?style=flat-square" /></a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/◉%20GitHub-THE%20%CE%A0%20LAB-24292F?style=flat-square&logo=github&logoColor=white" /></a>
+<a href="https://github.com/the-pi-lab"><img src="https://img.shields.io/badge/◉%20GitHub-THE%20%CE%A0%20LAB-24292F?style=flat-square&logo=github&logoColor=white" /></a>
 &nbsp;
 <a href="https://www.linkedin.com/in/vinayak-mahavar-the-%CF%80-lab-1a1802394"><img src="https://img.shields.io/badge/✉%20Get%20in%20touch-Founder-059669?style=flat-square" /></a>
 
