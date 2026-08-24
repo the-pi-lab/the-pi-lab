@@ -173,51 +173,37 @@ Custom products, internal platforms and tools designed around AI from the ground
 
 ---
 
-## ◈ THE THE Π LAB SYSTEM
+## ◈ THE Π LAB SYSTEM
 
-<div align="center">
+```mermaid
+flowchart TD
+    A["👤 HUMAN INTENT"] --> B["🧠 AI / REASONING"]
 
-```text
-                         ┌─────────────────────┐
-                         │     HUMAN INTENT     │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │    AI / REASONING   │
-                         └──────────┬──────────┘
-                                    │
-                  ┌─────────────────┼─────────────────┐
-                  ▼                 ▼                 ▼
-             ┌─────────┐       ┌─────────┐       ┌─────────┐
-             │ MEMORY  │       │  TOOLS  │       │  DATA   │
-             └────┬────┘       └────┬────┘       └────┬────┘
-                  └─────────────────┼─────────────────┘
-                                    ▼
-                          ╔══════════════════╗
-                          ║   AGENTIC CORE   ║
-                          ╚════════╤═════════╝
-                                   │
-                                   ▼
-                          ┌─────────────────┐
-                          │    AUTOMATE     │
-                          └────────┬────────┘
-                                   │
-                                   ▼
-                          ┌─────────────────┐
-                          │     EXECUTE     │
-                          └────────┬────────┘
-                                   │
-                                   ▼
-                          ┌─────────────────┐
-                          │     VERIFY      │
-                          └────────┬────────┘
-                                   │
-                                   ▼
-                              REAL RESULT
+    B --> C["🗃️ MEMORY"]
+    B --> D["🔌 TOOLS"]
+    B --> E["📊 DATA"]
+
+    C --> F["🤖 AGENTIC CORE"]
+    D --> F
+    E --> F
+
+    F --> G["⚙️ BUSINESS AUTOMATION"]
+    G --> H["🚀 EXECUTE"]
+    H --> I["✓ VERIFY"]
+    I --> J["📈 REAL-WORLD RESULT"]
+
+    I -. "feedback" .-> B
+
+    classDef input fill:#f5f3ff,stroke:#7c3aed,color:#4c1d95,stroke-width:2px;
+    classDef intelligence fill:#ede9fe,stroke:#8b5cf6,color:#4c1d95,stroke-width:2px;
+    classDef systems fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:2px;
+    classDef execution fill:#ecfdf5,stroke:#059669,color:#064e3b,stroke-width:2px;
+
+    class A input;
+    class B,C,D,E intelligence;
+    class F,G systems;
+    class H,I,J execution;
 ```
-
-</div>
 
 ---
 
@@ -251,26 +237,27 @@ Instead of building another dashboard where someone has to manually operate ever
 
 ## ◈ HOW WE ENGINEER
 
-```text
-              ┌──────────────────────────┐
-              │       THE PROBLEM        │
-              └────────────┬─────────────┘
-                           ↓
-                    MAP THE WORKFLOW
-                           ↓
-                    CONNECT THE DATA
-                           ↓
-                    ADD INTELLIGENCE
-                           ↓
-                     GIVE IT TOOLS
-                           ↓
-                    AUTOMATE ACTIONS
-                           ↓
-                     ADD GUARDRAILS
-                           ↓
-                    MEASURE RESULTS
-                           ↓
-                      ITERATE ↺
+```mermaid
+flowchart LR
+    A["🎯 THE PROBLEM"] --> B["🗺️ MAP WORKFLOW"]
+    B --> C["🔗 CONNECT DATA"]
+    C --> D["🧠 ADD INTELLIGENCE"]
+    D --> E["🛠️ GIVE IT TOOLS"]
+    E --> F["⚙️ AUTOMATE ACTIONS"]
+    F --> G["🛡️ ADD GUARDRAILS"]
+    G --> H["📊 MEASURE RESULTS"]
+    H --> I["🔁 ITERATE"]
+    I -. "continuous improvement" .-> D
+
+    classDef step fill:#f8fafc,stroke:#64748b,color:#0f172a,stroke-width:2px;
+    classDef ai fill:#f3e8ff,stroke:#9333ea,color:#581c87,stroke-width:2px;
+    classDef automation fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:2px;
+    classDef safety fill:#ecfdf5,stroke:#059669,color:#064e3b,stroke-width:2px;
+
+    class A,B,C,H,I step;
+    class D ai;
+    class E,F automation;
+    class G safety;
 ```
 
 We don't optimize for a flashy demo.
@@ -302,11 +289,22 @@ INTELLIGENT OPERATIONS
 
 ---
 
-## ◈ THE THE Π LAB LOOP
+## ◈ THE Π LAB LOOP
 
 <div align="center">
 
-### `OBSERVE` → `REASON` → `PLAN` → `ACT` → `VERIFY` → `LEARN` ↺
+```mermaid
+flowchart LR
+    A["👁️ OBSERVE"] --> B["🧠 REASON"]
+    B --> C["🗺️ PLAN"]
+    C --> D["⚡ ACT"]
+    D --> E["✓ VERIFY"]
+    E --> F["📚 LEARN"]
+    F --> A
+
+    classDef loop fill:#f5f3ff,stroke:#7c3aed,color:#4c1d95,stroke-width:2px;
+    class A,B,C,D,E,F loop;
+```
 
 </div>
 
@@ -332,27 +330,27 @@ When AI can **understand + decide + act + verify**, it stops being just a chat i
 
 ## ◈ THE ENDGAME
 
-```text
-OLD WORLD
+```mermaid
+flowchart TB
+    subgraph OLD["OLD WORLD"]
+        O1["👤 HUMAN"] --> O2["💻 SOFTWARE"] --> O3["📋 WORKFLOW"] --> O4["📤 RESULT"]
+    end
 
-HUMAN → SOFTWARE → WORKFLOW → RESULT
+    subgraph PILAB["THE Π LAB"]
+        P1["👤 HUMAN"] --> P2["🧠 INTELLIGENCE"]
+        P2 --> P3["🤖 AGENTS"]
+        P3 --> P4["🔌 TOOLS + DATA"]
+        P4 --> P5["⚙️ BUSINESS AUTOMATION"]
+        P5 --> P6["🚀 AUTONOMOUS EXECUTION"]
+        P6 --> P7["📈 RESULT"]
+        P6 -. feedback .-> P2
+    end
 
+    classDef old fill:#f8fafc,stroke:#94a3b8,color:#334155,stroke-width:2px;
+    classDef pi fill:#f3e8ff,stroke:#7c3aed,color:#4c1d95,stroke-width:2px;
 
-THE Π LAB
-
-HUMAN
-  ↓
-INTELLIGENCE
-  ↓
-AGENTS
-  ↓
-TOOLS + DATA
-  ↓
-BUSINESS AUTOMATION
-  ↓
-AUTONOMOUS EXECUTION
-  ↓
-RESULT
+    class O1,O2,O3,O4 old;
+    class P1,P2,P3,P4,P5,P6,P7 pi;
 ```
 
 We believe the next generation of businesses won't simply **use AI**.
