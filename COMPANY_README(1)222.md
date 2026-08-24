@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 PI LAB
+# 🧠 THE Π LAB
 
 ### `BUILDING THE INTELLIGENCE LAYER FOR MODERN BUSINESS`
 
@@ -15,11 +15,11 @@
 
 <br/><br/>
 
-<a href="#"><img src="https://img.shields.io/badge/🌐%20Website-PI%20Lab-7C3AED?style=flat-square" /></a>
+<a href="#"><img src="https://img.shields.io/badge/🌐%20Website-THE%20%CE%A0%20LAB-7C3AED?style=flat-square" /></a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/💼%20LinkedIn-PI%20Lab-0A66C2?style=flat-square" /></a>
+<a href="#"><img src="https://img.shields.io/badge/💼%20LinkedIn-THE%20%CE%A0%20LAB-0A66C2?style=flat-square" /></a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/◉%20GitHub-PI%20Lab-24292F?style=flat-square&logo=github&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/◉%20GitHub-THE%20%CE%A0%20LAB-24292F?style=flat-square&logo=github&logoColor=white" /></a>
 &nbsp;
 <a href="#"><img src="https://img.shields.io/badge/✉%20Contact-Get%20in%20touch-059669?style=flat-square" /></a>
 
@@ -37,7 +37,7 @@
 
 ---
 
-## ◈ WHAT IS PI LAB?
+## ◈ WHAT IS THE Π LAB?
 
 **PI Lab** is an AI-first engineering company focused on **business automation, AI agents, intelligent workflows and custom software systems**.
 
@@ -173,7 +173,7 @@ Custom products, internal platforms and tools designed around AI from the ground
 
 ---
 
-## ◈ THE PI LAB SYSTEM
+## ◈ THE THE Π LAB SYSTEM
 
 <div align="center">
 
@@ -302,7 +302,7 @@ INTELLIGENT OPERATIONS
 
 ---
 
-## ◈ THE PI LAB LOOP
+## ◈ THE THE Π LAB LOOP
 
 <div align="center">
 
@@ -338,7 +338,7 @@ OLD WORLD
 HUMAN → SOFTWARE → WORKFLOW → RESULT
 
 
-PI LAB
+THE Π LAB
 
 HUMAN
   ↓
@@ -363,7 +363,7 @@ They will operate through **intelligent infrastructure**.
 
 <div align="center">
 
-# ◢◤ PI LAB ◥◣
+# ◢◤ THE Π LAB ◥◣
 
 ### **DON'T JUST USE THE AI ERA.**
 ### **ENGINEER IT.**
