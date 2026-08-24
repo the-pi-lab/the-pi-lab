@@ -21,7 +21,7 @@
 &nbsp;
 <a href="#"><img src="https://img.shields.io/badge/◉%20GitHub-THE%20%CE%A0%20LAB-24292F?style=flat-square&logo=github&logoColor=white" /></a>
 &nbsp;
-<a href="#"><img src="https://img.shields.io/badge/✉%20Contact-Get%20in%20touch-059669?style=flat-square" /></a>
+<a href="https://www.linkedin.com/in/vinayak-mahavar-the-%CF%80-lab-1a1802394"><img src="https://img.shields.io/badge/✉%20Get%20in%20touch-Founder-059669?style=flat-square" /></a>
 
 </div>
 
@@ -204,6 +204,22 @@ flowchart TD
     class F,G systems;
     class H,I,J execution;
 ```
+
+---
+
+## ◈ OPEN SIGNALS
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=the-pi-lab&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" alt="Profile views"/>
+
+<img src="https://img.shields.io/github/stars/the-pi-lab?style=for-the-badge&label=REPOSITORY%20STARS&color=F59E0B&logo=github&logoColor=white" alt="Repository stars"/>
+
+<img src="https://img.shields.io/github/followers/the-pi-lab?style=for-the-badge&label=FOLLOWERS&color=2563EB&logo=github&logoColor=white" alt="GitHub followers"/>
+
+</div>
+
+> **Note:** GitHub repository stars/followers are live GitHub metrics. Profile-view badges are supplied by a third-party counter service and should be treated as approximate rather than an audited analytics source.
 
 ---
 
